@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.902
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "RDP_Selector", "RDP_Selector\RDP_Selector.vbproj", "{85B57570-5237-4713-A87C-851D63F9DAAD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{85B57570-5237-4713-A87C-851D63F9DAAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{85B57570-5237-4713-A87C-851D63F9DAAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{85B57570-5237-4713-A87C-851D63F9DAAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{85B57570-5237-4713-A87C-851D63F9DAAD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A8A07BCE-8D40-4E0C-90D5-D750C467CB89}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 2
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://tfs2015:8080/tfs/rcurala
+		SccProjectUniqueName0 = RDP_Selector\\RDP_Selector.vbproj
+		SccProjectName0 = RDP_Selector
+		SccLocalPath0 = RDP_Selector
+		SccLocalPath1 = .
+	EndGlobalSection
+EndGlobal
