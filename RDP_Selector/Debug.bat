@@ -1,1 +1,1 @@
-﻿RDP_Selector.exe -debug
+RDP_Selector.exe -debug
