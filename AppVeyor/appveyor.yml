@@ -1,0 +1,30 @@
+version: 1.0.0.{build}
+image: Visual Studio 2019
+configuration:
+- Release
+- Debug
+platform: Any CPU
+shallow_clone: true
+install:
+- ps: AppVeyor\install.ps1
+before_build:
+- cmd: nuget restore
+build:
+  project: RDP_Selector.sln
+  verbosity: minimal
+artifacts:
+- path: RDP_Selector\bin\Release
+  name: RDP_Selector
+deploy:
+  provider: GitHub
+  tag: $(APPVEYOR_REPO_TAG_NAME)
+  release: RDP_Selector $(AppVersion)
+  description: "No changelog"
+  auth_token:
+    secure: 9NRTNKyVHpRNaenx8/anaILCi7GN/qSFnXAbGAzx2oCoIUJsiAhuxP0MHIBG/V8k
+  artifact: RDP_Selector
+  draft: false
+  prerelease: true
+  on:
+    configuration: Release
+    appveyor_repo_tag: true

@@ -9,10 +9,10 @@ Imports System.Runtime.InteropServices
 ' Проверьте значения атрибутов сборки
 
 <Assembly: AssemblyTitle("RDP_Selector")>
-<Assembly: AssemblyDescription("")>
-<Assembly: AssemblyCompany("RCUrala")>
+<Assembly: AssemblyDescription("Active Directory RDP Selector")>
+<Assembly: AssemblyCompany("Virenbar")>
 <Assembly: AssemblyProduct("RDP_Selector")>
-<Assembly: AssemblyCopyright("Copyright © RCUrala 2021")>
+<Assembly: AssemblyCopyright("Copyright © Virenbar 2021")>
 <Assembly: AssemblyTrademark("")>
 
 <Assembly: ComVisible(False)>
@@ -31,5 +31,5 @@ Imports System.Runtime.InteropServices
 ' используя "*", как показано ниже:
 ' <Assembly: AssemblyVersion("1.0.*")>
 
-<Assembly: AssemblyVersion("2.0.0.0")>
-<Assembly: AssemblyFileVersion("2.0.0.0")>
+<Assembly: AssemblyVersion("2.0.1")>
+<Assembly: AssemblyFileVersion("2.0.1")>
